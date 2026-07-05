@@ -1,0 +1,43 @@
+#comp5 {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 50px;
+}
+
+#comp5 #background {
+    background-image: url("./../images/Rectangle\ 20.png");
+    background-size: cover;
+    background-position: center;
+    height: 660px;
+    margin-top: 50px;
+}
+
+#comp5 #background #leftside {
+    height: 330px;
+    width: 855px;
+    background-color: #ffff;
+    margin: 30px 10px 0px 380px;
+    /* padding-: 150px;  */
+    margin-top: 50px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+#comp5 #background #leftside #box {
+    height: 165px;
+    width: 716px;
+    padding: 30px 10px 30px 50px;
+    margin-bottom: 50px;
+}
+
+#comp5 #background #leftside #box #quote {
+    border-left: 5px solid black;
+    padding-left: 50px;
+    height: 230px;
+
+}
+
+#comp5 #background #leftside #box #quote span {
+    font-weight: 800;
+}

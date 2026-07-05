@@ -1,0 +1,53 @@
+#comp8 {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#comp8 #head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: 800;
+    padding: 40px;
+}
+
+#comp8 #bg {
+    background-image: url("./../images/Rectangle\ 35.png");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    margin: 30px;
+}
+#comp8  #down #boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 30px;
+   
+}
+#comp8  #down  #boxes #bg .common{
+    background-color: #ffff;
+    height: 300px;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+#comp8  #down  #boxes #bg .common span {
+    font-weight: 800;
+    font-size: 72px;
+    padding: 30px;
+}
+#comp8  #down  #boxes #bg .common div{
+    font-size: 28px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    /* width: 250px; */
+}

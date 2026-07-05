@@ -1,0 +1,56 @@
+#comp3{
+    padding: 0px;
+    margin: 0px;
+}
+#comp3 #up #boxes{
+    display: flex;
+    height: 314px;
+    font-size: 41px;
+    margin: 30px;
+    margin: 30px;
+}
+#comp3 #up #para{
+height: 203px;
+width: 380px;
+font-size: 23px;
+}
+#comp3 #down {
+    background-size: cover;
+    background-position: center;
+}
+#comp3 #down #bg{
+    background-image: url("./../images/Rectangle\ 15.png");
+    height: 690px;
+}
+#comp3 #down #images{
+    display: flex;
+}
+#comp3 #down #images  .commonbox{
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 350px;
+    margin: 30px;
+}
+#comp3 #down #images .common{
+    background-position: center;
+    background-size: cover;
+    height: 285px;
+    width: 350px;
+    margin-top: 30px;
+    
+} 
+#comp3 #down #images #image1{
+    background-image: url("./../images/Rectangle\ 16.png");
+    
+}
+#comp3 #down #images #image2{
+    background-image: url("./../images/Rectangle\ 18.png");
+}
+#comp3 #down #images #image3{
+    background-image: url("./../images/Rectangle\ 20.png");
+}
+#comp3 #down #images #image4{
+    background-image: url("./../images/Rectangle\ 17.png");
+  
+}

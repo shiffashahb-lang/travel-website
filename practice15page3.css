@@ -1,0 +1,123 @@
+#page3{
+    padding:0;
+    margin:0
+}
+#page3 {
+    background-color: rgb(253, 249, 249);
+}
+#page3 #up span {
+color: orange;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px 0px;
+}
+#page3 #up #line1{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+    padding: 20px 0px;
+}
+#page3 #up #para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:14px;
+}
+#page3 #boxes{
+/* background-color: #ffff; */
+display: flex;
+align-items: center;
+margin: 0px 30px;
+padding: 30px 40px;
+border-top-width: 30px;   
+
+}
+#page3 #down #boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items:justify ;
+    text-align: center;
+}
+#page3 #boxes #circle{
+    background-color: rgb(236, 9, 115);
+    border-radius: 100px;
+    height:100px;
+    width: 100px;
+    margin: 0px 40px;
+}
+#page3 #boxes #circle span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:7px;
+    color: #ffff;
+}
+#page3 #boxes #circle :nth-child(2){
+font-size: 20px;
+font-weight:800;
+}
+#page3 #boxes{
+    display: flex;
+   
+    align-items: center;
+    margin: 0px 20px;
+    padding: 0px 20px;
+    
+}
+#page3 #boxes .commonB{
+    background-color: #ffff;
+}
+
+/* #page3 #boxes #box1{
+    margin: 0px 20px;
+   background-color: #ffff;
+}
+
+#page3 #boxes #box2{
+    margin: 0px 20px;
+    background-color: #ffff
+}
+#page3 #boxes #box3{
+    margin: 0px 20px;
+    background-color: #ffff
+} */
+#page3 #boxes #head{
+    font-weight: 700;
+    font-size: 20px;
+}
+#page3 #boxes #charges :first-child{
+    color: orange;
+}
+#page3 #boxes #charges :last-child{
+    color: #685555a2;
+} 
+#page3 #boxes #list ul li{
+    color: #685555a2 ;
+     /* display: flex; */
+    justify-content: justify;
+    align-self: center;
+}
+#page3 #boxes #btn{
+    color: #ffff;   
+    background-color:rgb(236, 9, 115) ;
+    border: 1px solid orange;
+    border-radius: 50px;
+    height: 2px;
+    /* width: 10px; */
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+#page3 #down #boxes #btn a{
+    text-decoration: none;
+}
+#page3 #down #boxes #btn :hover{
+    background-color: rgb(255, 165, 0);
+    text-decoration:20px;
+    height:10px;
+}

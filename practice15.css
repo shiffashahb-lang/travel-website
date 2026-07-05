@@ -1,0 +1,64 @@
+#page1{
+    margin: 0;
+    padding: 0;
+}
+#page1{
+    border:1px solid rgb(202, 50, 50);
+    width:auto;
+    background-color: rgb(46, 36, 36);
+    color: #ffff;
+     display: flex; 
+}
+#page1 #topB #left{
+    width:50%;
+    height:100%;
+}
+#page1 #topB #left #img{
+    background-image:url("./../images/family-using-smartphone-browsing-internet-together-at-home-on-weekend.jpg") ;
+    height: 100%;
+    width: 100%; 
+    background-size: cover;
+    background-position: center;
+    display: flex;   
+   
+}
+#page1 #topB {
+    display: flex;
+   
+ }
+ #page1 #right{
+    margin: 30px;
+    width:50%;
+ }
+#page1 #right span p{
+   color:orange;
+   font-size: 14px;
+}
+#page1 #right #head{
+    font-size: 24px;
+    font-weight: 700px;
+}
+#page1 #icons svg{
+    height:50px;
+    fill: rgba(255, 11, 84, 0.904);
+}
+#page1 #topB #icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page1 #buttomB  #icons #heading{
+    font-size: 20px;
+    font-weight:700;
+    margin :10px;
+    display: flex;
+}
+#page1 #icons #box {
+    /* display:flex; */
+
+}
+#page1 #icons #commonB{
+    display:flex;
+    align-items: center;
+}

@@ -1,0 +1,63 @@
+#comp6{
+    padding: 0px;
+    margin: 0px;
+   
+}
+#comp6 #head{
+    font-size: 48px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+
+#comp6  #down #boxes {
+    display: flex;
+    justify-content: space-around;
+}
+#comp6 #down #boxes .common{
+    height:242px;
+    width: 242px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 150px;
+    display: flex;
+    margin: 60px;
+    margin-top: -50px;
+   
+}
+#comp6 #down #topbox1{
+    background-image: url("./../images/business-woman_74190-2277.jpg");
+}
+#comp6 #down #topbox2{
+    background-image: url("./../images/onew.jpg");
+}
+#comp6 #down #topbox3{
+    background-image: url("./../images/two.avif");
+}
+#comp6 #down #boxes .image{
+    background-color: #F3F3F3;
+    margin: 20px;
+}
+#comp6 .commonbox{
+    height:300px;
+    /* width: 350px; */
+    padding:70px;
+    align-items: center;
+    justify-content: center;
+}
+#comp6 .commonbox #name{
+    font-size: 36px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+#comp6 .commonbox #pos{
+    color: #102C43;
+    font-weight: 600;
+    padding:10px 20px ;
+}
+#comp6 .commonbox #number{
+    padding: 10px;
+}

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="travel webcomp1.css">
+    <link rel="stylesheet" href="travel wesite comp10.css">
+    <link rel="stylesheet" href="travel website comp7.css">
+    <link rel="stylesheet" href="travel website footer.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+        font-family: "Montserrat";
+    }
+
+    #comp1 #line2 #bg {
+        background-image: url("./../images/Rectangle\ 12.png");
+        background-size: cover;
+        background-position: center;
+        height: 100px;
+
+    }
+    #comp1 #line2 #bg #color {
+        background-color: rgb(16, 44, 67, 0.7);
+        height: 100px;
+    }
+
+    #comp1 #line2 #bg #color #left {
+        color: #ffff;
+        font-size: 39px;
+        font-weight: 800;
+        padding: 5px 30px;
+    }
+
+    #comp1 #line2 #bg #color #left span {
+        font-size: 21px;
+        font-weight: 200;
+    }
+
+    #comp1 #line2 #bg #color #left :nth-child(2) {
+        color: #01B3A7;
+        font-size: 21px;
+    }
+    #comp1 #location{
+        background-image: url("./../images/Rectangle\ 32.png");
+    background-position: center;
+    background-size: contain;
+    height: 334px;
+    width: 1250px;
+    
+    }
+    #comp1 #boxes {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    #comp1 #boxes svg{
+        height: 108px;
+        fill: #01B3A7;
+    }
+    #comp1 #boxes .commonbox{
+        border: 5px solid #01B3A7;
+        width: 300px;
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top :80px;
+    }
+    #comp1 #boxes .commonbox #des{
+        color: #01B3A7;
+        /* border: 2px solid saddlebrown; */
+        margin-top: 30px;
+        font-weight: 900;
+    }
+    #comp1 #head{
+        font-size: 43px;
+        font-weight: 600;
+        padding-left: 35px;
+    }
+   
+    #comp1 #contactus{
+        /* color: #ffff; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        row-gap: 2%;
+        column-gap: 2%;
+        grid-template-columns: 30% 50%;
+        margin-bottom: 80px;
+        
+    }
+    #comp1 #contactus .commonbox{
+        background-color:#01B3A7;
+        height: 64px;
+        color: #ffff;
+        padding-left: 10px;
+    }
+    #comp1 #contactus ::placeholder{
+        color: #ffff;
+        font-weight: 600;
+    } 
+    #comp1 #contactus .commonbox:nth-child(1){
+        grid-row:1;
+        grid-column: 1/3;
+    }
+    #comp1 #contactus .commonbox:nth-child(2){
+        grid-row:2 ;
+        grid-column: 1/3;
+    }
+    #comp1 #contactus .commonbox:nth-child(5){
+        grid-row:4;
+        grid-column: 1/3;
+    }
+    #comp1 #contactus .commonbox:nth-child(6){
+        grid-row:5;
+        grid-column: 1/3;
+    }
+    #comp1 #contactus .commonbox:nth-child(7){
+        grid-row:6;
+        grid-column: 1/3;
+    }
+    #comp1 #contactus .commonbox:nth-child(8){
+        grid-row:7;
+        grid-column: 1/3;
+        background-color:#50BA87;
+        font-weight:600;
+
+    }
+</style>
+<body>
+    <div id="comp1"> <div id="head">
+        <div id="left">
+            <div id="logo"></div>
+        </div>
+        <div id="right">
+            <div id="icon1" class="common"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path
+                        d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120l0 136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2 280 120c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
+                </svg></div>
+            <div id="des">Opening Hours 24/7</div>
+            <div id="line"></div>
+            <div id="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path
+                        d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z" />
+                </svg></div>
+            <div id="des">+92 300 0000000</div>
+
+        </div>
+    </div>
+  <div id="line1">
+                <div id="menubar">
+                    <div id="menu1" class="commonbox"><a href="./travel website.html"> Home</a></div>
+                    <div id="menu2" class="commonbox"><a href="./about page .html">About</a></div>
+                    <div id="menu3" class="commonbox"><a href="./our tour.html">Our Tours</a></div>
+                    <div id="menu4" class="commonbox"><a href="./gallery.html">Gallery</a></div>
+                    <div id="menu5" class="commonbox"><a href="./contact us.html">Contact Us</a></div>
+                </div>
+        <div id="btn">Sign in</div>
+    </div>
+    <div id="line2">
+        <div id="bg">
+            <div id="color">
+                <div id="left">Contact Us
+                    <div><span>Home></span>
+                        <span>Contact Us</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <div id="location"></div>
+    <div id="boxes">
+        <div id="box1" class="commonbox">
+            <div id="image"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M80 0C44.7 0 16 28.7 16 64l0 384c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L80 0zm80 432l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg></div>
+            <div id="des">+92 3456372733</div>
+        </div>
+        <div id="box2" class="commonbox">
+            <div id="image"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3 -.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg></div>
+            <div id="des">+92 3456372733</div>
+        </div>
+        <div id="box3" class="commonbox">
+            <div id="image"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9l.3-.5z"/></svg></div>
+            <div id="des">+92 3456372733</div>
+        </div>
+    </div>
+    <div id="head">Get in Touch </div>
+    <form action="#" id="contactus">
+        
+        <input type="text" id="name" class="commonbox" name="Name" value="" placeholder="Name"> 
+        <input type="email" id="email" class="commonbox" name="Email" value="" placeholder="Email"> 
+        <input type="tel" id="phone" class="commonbox same" name="phone no" value="" placeholder="Phone no">
+<input type="text" id="postalcode" class="commonbox same" name="postal code" value="" placeholder="postal code">
+        <input type="text" id="address" class="commonbox" name="location" value="" placeholder="Location">
+        <input type="text" id="subject" class="commonbox" name="Subject " value="" placeholder="Subject">
+       <textarea rows="5" cols="100" name="message" placeholder="Message" id="message"  class="commonbox"></textarea>
+       <input type="submit" name="Send message" id="sendmessage" class="commonbox" value="Send Message" >
+    </form>
+    </div>
+
+</div>
+<section>
+    <div id="comp7">
+        <div id="background">
+            <div id="head">GET IN TOUCH</div>
+            <div id="down">
+                <div id="icons">
+                    <div id="icon1" class="commonbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path
+                                d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z" />
+                        </svg></div>
+                    <div id="icon2" class="commonbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></div>
+                    <div id="icon3" class="commonbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></svg></div>
+                    <div id="icon4" class="commonbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/></svg></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div id="footer">
+        <div id="up">
+            <div id="boxes">
+                <div id="box1">
+                    <div id="logo"></div>
+                    <div id="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum nam nisi,
+                        sapiente deleniti hic quas laborum velit, praesentium eaque delectus sunt cum commodi
+                    </div>
+                </div>
+                <div id="box2" class="commonbox">
+                    <div id="head">Main Menu</div>
+                    <div id="list">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Our Tour</li>
+                        <li>Gallery</li>
+                        <li>Contact Us</li>
+                        <li>Sign in</li>
+                    </div>
+                </div>
+                <div id="box3" class="commonbox">
+                    <div id="head">Contact With Us</div>
+                    <div id="list">
+                        <li>Contact Us </li>
+                        <li>Terms and Conditions</li>
+                        <li>Privacy and Policies</li>
+                    </div>
+                </div>
+                <div id="box4" class="commonbox">
+                    <div id="head">Services IN</div>
+                    <div id="list">
+                        <li>Islamabad</li>
+                        <li>Lahore </li>
+                        <li>Peshawar</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="down">
+            <div id="left">Copyright &copy 2024 All Rights Reserved </div>
+            <div id="right">
+                <div id="icons">
+                    <div id="icon1" class="common"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>s</div>
+                    <div id="icon2" class="common"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/></svg></div>
+                    <div id="icon3" class="common"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

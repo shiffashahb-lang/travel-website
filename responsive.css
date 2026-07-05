@@ -1,0 +1,337 @@
+body, html {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+#comp2 #up,
+#comp2 #up #menubar,
+#comp3 #up #boxes,
+#comp3 #down #images,
+#comp4 #boxes .commonbox,
+#comp4 #boxes #right .head,
+#comp6 #down #boxes,
+#comp7 #icons,
+#comp8 #boxes,
+#comp9 #background #btn,
+#footer #up #boxes,
+#footer #down {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#comp2 #up {
+    justify-content: center;
+    gap: 20px;
+}
+#comp2 #up #right #image {
+    max-width: 100%;
+    height: auto;
+    min-height: 300px;
+}
+#comp2 #up #left {
+    max-width: 569px;
+    width: 100%;
+}
+#comp2 #up #left #para {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#comp3 #up #boxes {
+    height: auto;
+    justify-content: center;
+    gap: 30px;
+}
+#comp3 #up #para {
+    max-width: 100%;
+    height: auto;
+}
+#comp3 #down #images {
+    justify-content: center;
+    height: auto;
+}
+#comp3 #down #bg {
+    height: auto;
+    padding-bottom: 40px;
+}
+
+#comp4 #boxes .commonbox {
+    max-width: 1200px;
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+}
+#comp4 #boxes #left, 
+#comp4 #boxes #left #image {
+    width: 100%;
+    max-width: 602px;
+    min-height: 300px;
+}
+#comp4 #boxes #right {
+    width: 100%;
+    flex: 1;
+    min-width: 280px;
+}
+#comp4 #boxes #right #headright {
+    margin-left: auto;
+}
+#comp4 #boxes #right #para {
+    max-width: 100%;
+    width: auto;
+}
+
+#comp5 #background #leftside {
+    max-width: 855px;
+    width: 90%;
+    height: auto;
+    margin: 50px auto;
+}
+#comp5 #background #leftside #box {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+#comp5 #background #leftside #box #quote {
+    height: auto;
+}
+
+#comp6 #down #boxes {
+    gap: 30px;
+}
+#comp6 #head {
+    text-align: center;
+    font-size: 32px;
+}
+#comp7 #icons,
+#comp8 #boxes {
+    justify-content: center;
+    gap: 20px;
+}
+
+#comp9 #background #head {
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 32px;
+}
+#comp9 #background #btn {
+    gap: 15px;
+    padding: 0 20px;
+}
+#comp9 #background #btn #btn1 {
+    max-width: 367px;
+    width: 100%;
+}
+
+#footer, 
+#footer #up, 
+#footer #down {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: unset !important;
+}
+
+#footer #down {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 15px 20px !important;
+    gap: 15px;
+}
+
+@media (max-width: 768px) {
+    #footer #down {
+        flex-direction: column !important;
+        text-align: center !important;
+        justify-content: center !important;
+    }
+
+    #footer #down .social-icons, 
+    #footer #down #icons,
+    #footer #down a {
+        display: inline-flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        gap: 12px;
+    }
+}
+
+@media (max-width: 992px) {
+    #comp1 #about,
+    #comp1 #about #box, 
+    #comp1 #about #down {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        height: auto !important;
+    }
+
+    #comp1 #about #box #left, 
+    #comp1 #about #down #left {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        padding: 0 15px !important;
+        margin-bottom: 30px !important;
+    }
+
+    #comp1 #about #box #right,
+    #comp1 #about #down #right {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    #comp1 #about #box #right #back {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+        height: auto !important;
+        background: none !important;
+    }
+
+    #comp1 #about #box #right #pic1,
+    #comp1 #about #box #right #pic2,
+    #comp1 #about #box #right img,
+    #comp1 #about #down #right img,
+    #comp1 #about #box #right #back #pic1,
+    #comp1 #about #box #right #back #pic2,
+    #comp1 #about div img {
+        width: 100% !important;
+        max-width: 480px !important;
+        height: auto !important;
+        position: relative !important;
+        left: 0 !important;
+        top: 0 !important;
+        margin: 15px auto !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #comp2 #up #left #line {
+        font-size: 30px;
+    }
+    #comp2 #up #left #menubar {
+        font-size: 18px;
+    }
+    #comp4 #heading {
+        font-size: 36px;
+    }
+    #comp5 #background {
+        height: auto;
+        padding: 40px 0;
+    }
+    #comp5 #background #leftside {
+        font-size: 20px;
+    }
+
+    #comp7 #icons,
+    .social-tags-bar {
+        flex-direction: row !important;
+        justify-content: center !important;
+        gap: 12px !important;
+    }
+    #comp7 #icons a,
+    .social-tags-bar a {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    #comp1 #about #down #right #head {
+        font-size: 32px !important;
+    }
+    
+    #comp1 #line2 #bg #color #left {
+        font-size: 24px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #comp2 #up #left #line {
+        font-size: 24px;
+    }
+    #comp4 #boxes #right #headright {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    #comp9 #background #head {
+        font-size: 24px;
+    }
+    #comp9 #background #btn #btn2 {
+        margin-left: 0;
+    }
+}
+
+#comp7 {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+#comp7 #background {
+    background-image: url("./../images/Rectangle\ 31.png");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    min-height: 424px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+#comp7 #background #head {
+    font-size: 48px;
+    font-weight: 900;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#comp7 #background #down #icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 60px;
+    padding: 0 20px;
+}
+
+#comp7 #background #down #icons .commonbox {
+    margin: 0 !important;
+    flex: 0 1 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#comp7 #background #down svg {
+    height: 100px;
+    width: auto;
+    fill: #ffffff;
+    transition: transform 0.2s ease;
+}
+
+@media (max-width: 600px) {
+    #comp7 #background #head {
+        font-size: 32px;
+        padding-top: 30px;
+    }
+    #comp7 #background #down #icons {
+        gap: 20px;
+        margin-top: 40px;
+    }
+    #comp7 #background #down svg {
+        height: 70px;
+    }
+}

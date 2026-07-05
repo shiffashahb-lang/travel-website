@@ -1,0 +1,93 @@
+#page2{
+    padding: 0px;
+    margin: 0px;
+}
+#page2 #up{
+    padding: 20px;
+    margin: 40px;
+}
+#page2 #up span{
+    color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px 0px;
+}
+#page2 #up #line1{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px 0px;
+}
+#page2 #up #para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2 #down {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+#page2 #down #box1{
+    background-color: rgb(250, 249, 249);
+}
+#page2 #down #box2{
+    background-color: rgb(250, 249, 249);
+}
+#page2 #down #box3{
+    background-color: rgb(250, 249, 249);
+}
+#page2 #down #box4{
+    background-color: rgb(250, 249, 249);
+}
+#page2 #down #cbox :hover
+{
+background-color: rgb(255, 0, 55);
+    margin: 10px 20px;
+    align-items: center;
+    color: white;
+    margin:0px 50px;
+}
+#page2 #down #cbox #heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+#page2 #down #cbox  #btn {
+    color: orangered;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* #page2 #down #cbox svg :hover{
+    color: #ffff;
+} */
+#page2 #down #cbox svg{
+    height:50px;
+    fill:hwb(320 9% 15% / 0.911) ;
+}
+#page2 #down #btn a{
+    text-decoration: none;
+    color: orange;
+    margin:20px 20px;
+}
+#page2 #down #btn a :hover{
+    color: #ffff;
+    text-decoration:#ffff;
+    text-decoration: underline;
+}
+#page2 #down #cbox #arrow svg{
+    fill: orange;
+    height:20px;
+}
+#page2 #down #cbox
+{
+    margin:0px 40px;
+    padding: 10px 20px;
+}

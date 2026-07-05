@@ -1,0 +1,83 @@
+#footer {
+    padding: 0px;
+    margin: 0px;
+}
+
+#footer #up {
+    /* height: 400px; */
+    background-color: #102C43;
+   
+}
+
+#footer #up #boxes {
+    display: flex;
+   
+    border-top: 2px solid #01B3A7;
+    border-bottom: 2px solid #01B3A7;
+    color: #ffff;
+}
+
+#footer #up #boxes #head {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#footer #up #boxes #box1 {
+    padding: 20px;
+}
+
+#footer #up #boxes #box1 #logo {
+    background-image: url("./../images/Logo\ \(1\).png");
+    background-position: center;
+    background-size: cover;
+    height: 75px;
+    width: 260px;
+}
+
+#footer #up #boxes #box1 #para {
+    align-items: center;
+    justify-content: center;
+    height: 187px;
+    width: 408px;
+    font-size: 23px;
+    padding-top: 20px;
+}
+
+#footer #up #boxes .commonbox {
+    border-left: 2px solid #01B3A7;
+    height: 150px;
+    margin: 40px 0px 0px 0px ;
+    padding: 70px 30px 10px 30px;
+    /* padding: 50px 30px 80px 50px; */
+}
+
+#footer #up #boxes #box4 {
+    /* margin: 40px  0px; */
+    padding: 70px 30px 10px 30px;
+}
+
+#footer #down {
+    height: 58px;
+    background-color: #102C43;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footer #down #left{
+    font-size: 17px;
+    color: #ffff;
+    margin: 10px 20px 0px 0px;
+    padding-left: 20px ;
+}
+#footer #down #right svg{
+    fill: #01B3A7;
+    width: 35px;
+    height: 35px;
+ 
+}
+#footer #down #right #icons{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    padding: 20px ;
+}

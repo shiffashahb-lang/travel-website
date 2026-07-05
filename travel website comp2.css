@@ -1,0 +1,50 @@
+#comp2{
+    padding: 0px;
+    margin: 0px;
+}
+#comp2 #up {
+    display: flex;
+}
+#comp2 #up #right #image{
+    background-size: cover;
+    background-position: center;
+    background-image: url("./../images/Rectangle\ 12.png");
+    height:382px;
+    width: 556px;
+}
+#comp2 #up #left{
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#comp2 #up #left #line{
+    font-weight: 700;
+    font-size: 43px;
+}
+#comp2 #up #left #menubar{
+    display: flex;
+    font-size: 27px;
+}
+#comp2 #up #left #menubar .commonbox{
+    padding:15px 30px 5px 0px;
+    border-bottom: 2px solid gray;
+}
+#comp2 #up #left #para{
+    font-size: 23px;
+    align-items: center;
+    justify-content: center;
+    height: 175px;
+    width: 569px;
+}
+#comp2 #up #left #btn{
+    border: 3px solid #787575;
+    height: 51px; 
+     width: 200px;
+    color: #102C43;
+    font-size: 24px;
+    align-items: center;
+    justify-content:center ;
+    text-align: center;
+    padding-top: 25px;
+}
+@media only screen and (max-width:)

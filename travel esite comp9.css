@@ -1,0 +1,41 @@
+#comp9{
+    margin:0px;
+    padding: 0px;
+}
+#comp9 #background{
+background-image: url("./../images/Rectangle\ 39.png");
+background-position: center;
+background-size: cover;
+height: 400px;
+}
+#comp9 #background #head{
+    font-weight: 900;
+    font-size: 45px;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+#comp9 #background #btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center ;
+    font-size: 21px;
+    color: #ffff;
+}
+#comp9 #background #btn #btn1{
+    background-color: rgb(255, 255, 255 ,0.7);
+    height: 40px;
+    width: 367px;
+    padding-top: 20px;
+}
+#comp9 #background #btn #btn2{
+    background-color: #01B3A7;
+    height: 40px;
+    width: 163px;
+    padding-top: 20px;
+    margin-left: 20px;
+    font-weight: 500;
+}
