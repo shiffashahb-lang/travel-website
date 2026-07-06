@@ -6,7 +6,7 @@
     display: flex;
 }
 #comp10 #box #right{
-    background-image: url("./../images/Rectangle\ 32.png");
+    background-image: url("./images/Rectangle\ 32.png");
     background-position: center;
     background-size: cover;
     height: 334px;
@@ -20,6 +20,7 @@
 #comp10 #box #left p{
     color: #ffff;
     -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
     font-size: 54px;
     font-weight: 800;
   

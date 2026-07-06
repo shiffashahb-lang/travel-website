@@ -43,15 +43,15 @@
 }
 
 #comp4 #boxes #box1 #left #image {
-    background-image: url("./../images/Rectangle\ 23.png");
+    background-image: url("./images/Rectangle\ 23.png");
 }
 
 #comp4 #boxes #box2 #left #image {
-    background-image: url("./../images/Rectangle\ a.png");
+    background-image: url("./images/Rectangle\ a.png");
 }
 
 #comp4 #boxes #box3 #left #image {
-    background-image: url("./../images/Rectangle\ c.png");
+    background-image: url("./images/Rectangle\ c.png");
 }
 
 #comp4 #boxes #rating {

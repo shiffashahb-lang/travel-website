@@ -8,7 +8,7 @@
 #comp2 #up #right #image{
     background-size: cover;
     background-position: center;
-    background-image: url("./../images/Rectangle\ 12.png");
+    background-image: url("./images/Rectangle\ 12.png");
     height:382px;
     width: 556px;
 }
@@ -47,4 +47,3 @@
     text-align: center;
     padding-top: 25px;
 }
-@media only screen and (max-width:)

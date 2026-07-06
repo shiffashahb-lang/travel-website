@@ -5,7 +5,7 @@
 }
 
 #comp5 #background {
-    background-image: url("./../images/Rectangle\ 20.png");
+    background-image: url("./images/Rectangle\ 20.png");
     background-size: cover;
     background-position: center;
     height: 660px;

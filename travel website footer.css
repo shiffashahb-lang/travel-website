@@ -27,7 +27,7 @@
 }
 
 #footer #up #boxes #box1 #logo {
-    background-image: url("./../images/Logo\ \(1\).png");
+    background-image: url("./images/Logo\ \(1\).png");
     background-position: center;
     background-size: cover;
     height: 75px;
