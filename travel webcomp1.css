@@ -14,7 +14,7 @@
 }
 
 #comp1 #head #left {
-    background-image: url("./images/Logo\ \(1\).png");
+    background-image: url("./images/Logo (1).png");
     height: 58px;
     width: 191px;
     align-items: center;
@@ -98,7 +98,7 @@
 
 #comp1 #foot #background {
     height: 450px;
-    background-image: url("./images/Rectangle\ 3.png");
+    background-image: url("./images/Rectangle 3.png");
     background-size: cover;
     background-position: center;
 }
@@ -151,18 +151,18 @@
 }
 
 #comp1 #pictures #pic1 {
-    background-image: url("./images/Rectangle\ 8.png");
+    background-image: url("./images/Rectangle 8.png");
 
 }
 
 #comp1 #pictures #pic2 {
 
-    background-image: url("./images/Rectangle\ 10.png");
+    background-image: url("./images/Rectangle 10.png");
 
 }
 
 #comp1 #pictures #pic3 {
-    background-image: url("./images/Rectangle\ 9\ \(1\).png");
+    background-image: url("./images/Rectangle 9 (1).png");
 }
 
 #comp1 #pictures #des {

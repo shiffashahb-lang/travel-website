@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="travel webcomp1.css">
+    <link rel="stylesheet" href="travel website comp6 .css">
+    <link rel="stylesheet" href="travel website comp7.css">
+    <link rel="stylesheet" href="travel wesite comp10.css">
+    <link rel="stylesheet" href="travel website footer.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<style>
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat";
+    box-sizing: border-box; /* Crucial: stops padding from breaking widths */
+}
+
+#comp1 #line2 #bg {
+    background-image: url("./../images/Rectangle\ 12.png");
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+}
+
+#comp1 #line2 #bg #color {
+    background-color: rgb(16, 44, 67, 0.7);
+    height: 100px;
+}
+
+#comp1 #line2 #bg #color #left {
+    color: #ffff;
+    font-size: 39px;
+    font-weight: 800;
+    padding: 5px 30px;
+}
+
+#comp1 #line2 #bg #color #left span {
+    font-size: 21px;
+    font-weight: 200;
+}
+
+#comp1 #line2 #bg #color #left :nth-child(2) {
+    color: #01B3A7;
+    font-size: 21px;
+}
+
+
+#comp1 #about #box {
+    display: flex;
+    flex-wrap: wrap; 
+    font-size: 30px;
+    width: 100%;
+}
+
+#comp1 #about #box #left {
+    height: auto; 
+    min-height: 502px;
+    width: 100%;
+    max-width: 506px;
+    padding: 30px;
+    flex: 1 1 450px;
+}
+
+#comp1 #about #box #left #head {
+    font-size: 43px;
+    font-weight: 500;
+    height: auto;
+    min-height: 97px;
+    width: 100%;
+    max-width: 409px;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
+
+#comp1 #about #box #left #para {
+    font-size: 20px;
+}
+
+#comp1 #about #box #left #para #start {
+    font-weight: 800;
+}
+
+#comp1 #about #box #right .common {
+    background-position: center;
+    background-size: cover;
+}
+
+#comp1 #about #box #right #back {
+    background-image: url("./../images/transport-concept-with-boat_23-2148959743.avif");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex: 1 1 500px;
+}
+
+#comp1 #about #box #right #pic1 {
+    background-image: url("./../images/image\ 5.png");
+    height: 429px;
+    width: 340px;
+    margin-top: 160px;
+}
+
+#comp1 #about #box #right #pic2 {
+    background-image: url("./../images/image\ 4.png");
+    height: 429px;
+    width: 340px;
+    margin-bottom: -60px;
+    margin-left: -90px;
+}
+
+/* --- FIX: WHY CHOOSE US OVERLAP --- */
+#comp1 #about #down {
+    display: flex;
+    flex-wrap: wrap; /* Prevents overflow collisions */
+    margin-top: 90px;
+    padding: 30px;
+    width: 100%;
+    height: auto; /* Stripped static heights to let data breathe */
+}
+
+#comp1 #about #down #left {
+    background-image: url("./../images/Rectangle\ 42.png");
+    background-position: center;
+    background-size: cover;
+    height: 563px;
+    width: 100%;
+    max-width: 519px;
+    flex: 1 1 450px;
+}
+
+#comp1 #about #down #right {
+    padding: 30px;
+    flex: 1 1 500px;
+    width: 100%;
+}
+
+#comp1 #about #down #right #head {
+    font-weight: 800;
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#comp1 #about #down #right #menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#comp1 #about #down #right #menu a {
+    text-decoration: none;
+    color: #BEBEBE;
+}
+
+#comp1 #about #down #right #menu a:hover {
+    background-color: #01B3A7;
+    color: #ffff;
+}
+
+#comp1 #about #down #right #lines {
+    height: auto;
+}
+
+#comp1 #about #down #right #lines .commonbar {
+    height: 5px;
+    margin: 10px 30px 40px 20px;
+    padding: 0px 10px;
+}
+
+#comp1 #about #down #right #lines #circle {
+    height: 20px;
+    width: 20px;
+    left: 100%; 
+    max-left: 500px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation-name: animation1;
+    overflow: hidden;
+    animation-duration: 5s;
+    color: #ffff;
+}
+
+#comp1 #about #down #right #lines #line1 #circle {
+    background-color: greenyellow;
+}
+
+#comp1 #about #down #right #lines #line2 #circle {
+    background-color: orange;
+}
+
+#comp1 #about #down #right #lines #line3 #circle {
+    background-color: #01B3A7;
+}
+
+@keyframes animation1 {
+    from { left: 0px; }
+    to { left: 300px; }
+}
+
+#comp1 #about #down #right #lines #line1 {
+    background-color: green;
+    height: 5px;
+}
+
+#comp1 #about #down #right #lines #line2 {
+    background-color: orangered;
+}
+
+#comp1 #about #down #right #lines #line3 {
+    background-color: #01B3A7;
+}
+
+#comp1 #about #down #right #para {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 607px;
+    height: auto;
+    min-height: 104px;
+    margin: 15px auto;
+}
+
+
+#destination #boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#destination #boxes .commonbox {
+    margin: 10px 15px;
+}
+
+#destination #head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 43px;
+    font-weight: 800;
+}
+
+#destination #boxes .commonbox #name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#destination #boxes .commonbox img {
+    height: 250px;
+    width: 288px;
+    animation-name: animation2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#destination #boxes .commonbox img {
+    opacity: 0.1;
+}
+
+@keyframes animation2 {
+    from { opacity: 0.1; }
+    to { opacity: 2; }
+}
+
+
+#numbers #background {
+    height: auto; 
+    min-height: 400px;
+    width: 100%; 
+    background-image: url("./../images/Rectangle\ 49.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#numbers #background #boxes {
+    display: flex;
+    color: #ffff;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+#numbers #background #boxes .common {
+    margin: 15px;
+    padding: 20px;
+    flex: 1 1 200px;
+}
+
+#numbers #background #boxes #line {
+    border-right: 2px solid #ffff;
+    height: 120px;
+    margin: 0 10px;
+}
+
+#numbers #background .common :first-child {
+    font-size: 80px; 
+    text-align: center;
+}
+
+#numbers #background .common :last-child {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    #comp1 #about #box #right #back {
+        height: auto;
+        min-height: 450px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    #comp1 #about #box #right #pic1,
+    #comp1 #about #box #right #pic2 {
+        margin: 0 !important;
+        width: 90%;
+        height: 300px;
+    }
+    #comp1 #about #down #left {
+        height: 350px;
+    }
+    #numbers #background #boxes #line {
+        display: none; 
+    }
+    #numbers #background #boxes {
+        flex-direction: column;
+    }
+}
+
+</style>
+<html>
+<body>
+    <section>
+        <div id="comp1">
+            <div id="head">
+                <div id="left">
+                    <div id="logo"></div>
+                </div>
+                <div id="right">
+                    <div id="icon1" class="common"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120l0 136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2 280 120c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
+                        </svg></div>
+                    <div id="des">Opening Hours 24/7</div>
+                    <div id="line"></div>
+                    <div id="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z" />
+                        </svg></div>
+                    <div id="des">+92 300 0000000</div>
+
+                </div>
+            </div>
+   <div id="line1">
+                <div id="menubar">
+                    <div id="menu1" class="commonbox"><a href="./travel website.html"> Home</a></div>
+                    <div id="menu2" class="commonbox"><a href="./about page .html">About</a></div>
+                    <div id="menu3" class="commonbox"><a href="./our tour.html">Our Tours</a></div>
+                    <div id="menu4" class="commonbox"><a href="./gallery.html">Gallery</a></div>
+                    <div id="menu5" class="commonbox"><a href="./contact us.html">Contact Us</a></div>
+                </div>
+                <div id="btn">Sign in</div>
+            </div>
+            <div id="line2">
+                <div id="bg">
+                    <div id="color">
+                        <div id="left">About Us
+                            <div><span>Home></span>
+                                <span>About Us</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="about">
+                <div id="box">
+                    <div id="left">
+                        <div id="head">Lets go Travel With Us</div>
+
+                        <div id="para">
+                            <div id="start">Founded in 2006, Backpack Story was established by driven, dynamic, and
+                                innovative individuals who banded together.
+                            </div>
+                            Within five years of business operations, we have expanded Backpack Story and opened up
+                            three other subsidiary offices to focus on the various needs of our customers. After just
+                            two years in the business, Journez was presented with two valuable awards – the US Travel
+                            Excellence Award 2013.
+                            In addition, the travel agency has gone through the year-long Customer- Centric Initiative
+                            (CCI) program and successfully attained the US Service Class certification.
+                            We offer plenty of destinations, including Europe, USA, and Exotic long haul tours, making
+                            it professional to provide better service.
+                        </div>
+
+                    </div>
+                    <div id="right">
+                        <div id="back">
+                            <div id="pic1" class="common"></div>
+                            <div id="pic2" class="common"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="down">
+                    <div id="left"></div>
+                    <div id="right">
+                        <div id="head">Why Choose Us</div>
+                        <div id="menu">
+                            <div id="menuitem1" class="commonbox"><a href="">Expereince</a></div>
+                            <div id="menuitem2" class="commonbox">
+                                <a href="">Skill</a>
+                            </div>
+                            <div id="menuitem3" class="commonbox"><a href="">Mission</a></div>
+                        </div>
+                        <div id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, sed, aut vel
+                            recusandae ullam veniam necessitatibus dolore aliquam dignissimos voluptate, </div>
+                        <div id="lines">
+                            <p>Tours</p>
+                            <div id="line1" class="commonbar">
+                                <div id="circle">
+                                    <div id="circle2"></div>
+                                </div>
+                            </div>
+                            <p>Excursion</p>
+                            <div id="line2" class="commonbar">
+                                <div id="circle">
+                                    <div id="circle2"></div>
+                                </div>
+                            </div>
+                            <p>Hostel Bookings</p>
+                            <div id="line3" class="commonbar">
+                                <div id="circle">
+                                    <div id="circle2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section>
+        <div id="destination">
+            <div id="head">Distination</div>
+            <div id="boxes">
+                <div id="pictures1" class="commonbox">
+                    <img src="./../images/Rectangle 43.png" alt="not found">
+                    <div id="name">France</div>
+                </div>
+                <div id="pictures2" class="commonbox">
+                    <img src="./../images/Rectangle 44.png" alt="">
+                    <div id="name">Italy</div>
+                </div>
+                <div id="pictures3" class="commonbox"><img src="./../images/Rectangle 45.png" alt="">
+                    <div id="name">Egypt</div>
+                </div>
+
+                <div id="pictures4" class="commonbox"><img src="./../images/Rectangle 46.png" alt="">
+                    <div id="name">Dubai</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="numbers">
+            <div id="background">
+
+                <div id="boxes">
+                    <div id="box1" class="common">
+                        <span>12</span>
+                        <span>Awards</span>
+
+                    </div>
+                    <div id="line"></div>
+                    <div id="box2" class="common">
+                        <span>201</span>
+                        <span>tours</span>
+
+                    </div>
+                    <div id="line"></div>
+                    <div id="box3" class="common">
+                        <span>5K+</span>
+                        <span>Travellers</span>
+
+                    </div>
+                    <div id="line"></div>
+                    <div id="box4" class="common">
+                        <span>25</span>
+                        <span>Members</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="comp6">
+            <div id="head">Different people ____One Mission</div>
+            <div id="down">
+                <div id="boxes">
+                    <div id="box1" class="image">
+                        <div id="topbox1" class="common"></div>
+                        <div id="downbox1" class="commonbox">
+                            <div id="name">James Bond</div>
+                            <div id="pos">Tour Consultant</div>
+                            <div id="number">+92 320 00000000</div>
+                        </div>
+                    </div>
+
+                    <div id="box2" class="image">
+                        <div id="topbox2" class="common">
+                        </div>
+                        <div id="downbox2" class="commonbox">
+                            <div id="name">Jell peterson</div>
+                            <div id="pos">Travel Agent</div>
+                            <div id="number">+92 320 00000000</div>
+                        </div>
+                    </div>
+                    <div id="box3" class="image">
+                        <div id="topbox3" class="common"> </div>
+                        <div id="downbox3" class="commonbox">
+                            <div id="name">Emiley</div>
+                            <div id="pos">PR Manager</div>
+                            <div id="number">+92 320 00000000</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div id="comp7">
+        <div id="background">
+            <div id="head">GET IN TOUCH</div>
+            <div id="down">
+                <div id="icons">
+                    <div id="icon1" class="commonbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path
+                                d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z" />
+                        </svg></div>
+                    <div id="icon2" class="commonbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path
+                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                        </svg></div>
+                    <div id="icon3" class="commonbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path
+                                d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                        </svg></div>
+                    <div id="icon4" class="commonbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
+                        </svg></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section>
+        <div id="comp10">
+            <div id="box">
+                <div id="left">
+                    <p>Location</p>
+                </div>
+                <div id="right"></div>
+            </div>
+        </div>
+    </section>
+    <div id="footer">
+        <div id="up">
+            <div id="boxes">
+                <div id="box1">
+                    <div id="logo"></div>
+                    <div id="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum nam nisi,
+                        sapiente deleniti hic quas laborum velit, praesentium eaque delectus sunt cum commodi
+                    </div>
+                </div>
+                <div id="box2" class="commonbox">
+                    <div id="head">Main Menu</div>
+                    <div id="list">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Our Tour</li>
+                        <li>Gallery</li>
+                        <li>Contact Us</li>
+                        <li>Sign in</li>
+                    </div>
+                </div>
+                <div id="box3" class="commonbox">
+                    <div id="head">Contact With Us</div>
+                    <div id="list">
+                        <li>Contact Us </li>
+                        <li>Terms and Conditions</li>
+                        <li>Privacy and Policies</li>
+                    </div>
+                </div>
+                <div id="box4" class="commonbox">
+                    <div id="head">Services IN</div>
+                    <div id="list">
+                        <li>Islamabad</li>
+                        <li>Lahore </li>
+                        <li>Peshawar</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="down">
+            <div id="left">Copyright &copy 2024 All Rights Reserved </div>
+            <div id="right">
+                <div id="icons">
+                    <div id="icon1" class="common"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path
+                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                        </svg>s</div>
+                    <div id="icon2" class="common"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
+                        </svg></div>
+                    <div id="icon3" class="common"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" />
+                        </svg></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+</body>
+
+</html>
